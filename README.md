@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+- Why do we want global state?
+
+If we have global state, I'd have to pass from App => List => have to pass everything around in props
+
+Instead of passing through props, goal is we should reach up into global state with any connected component and grab whatever bit I want out of state and use it in props in that component 
+
